@@ -1,0 +1,418 @@
+.container-fluid{
+
+ 
+    background-image: linear-gradient(black,rgba(4, 56, 112, 0.944));
+}
+.upperList{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+
+    text-align:left;
+}
+.mobile{
+
+    color:brown;
+}
+.urdu{
+    color: brown;
+    font-weight: bold;
+
+}
+.sec{
+    font-size: medium;
+    background-color: transparent;
+    border-color: transparent;
+}
+.sec:hover{
+    background-color: transparent;
+    border-color: transparent;
+}
+.dropdown-toggle{
+    font-size: small;
+}
+#dropdownMenuButton{
+    background-color: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: solid gray;
+    border-right: solid gray;
+  
+
+}
+.dropdown-item{
+    font-size: small;
+}
+
+#hover-dropdown:hover .dropdown-menu {
+    display: block;
+}
+hr{color:gray;}
+.btnImg{
+    text-align: center;
+}
+.btndan{
+background-color: brown;
+padding: 0.5rem;
+width: 140px;
+font-size: medium;
+font-weight: 500;
+margin-left: 0.7rem;
+}
+
+.buttonads{
+
+    margin-top: 0.3rem;
+    margin-left: 0.8rem;
+    padding-left: 1.3rem;
+    text-align: center;
+    font-size: medium;
+   border-radius: 0%;
+    background-color: transparent;
+    border-color: transparent;
+transition-duration: 0.5s;
+}
+
+.buttonads:hover{
+    background-color: white;
+    color: brown;
+    transition-property: color;
+
+}
+.UsedCarsToggle{
+
+width: 65rem;
+overflow: hidden;
+    height: auto;
+   padding-top: 2rem;
+
+
+}
+.NewCarsToggle{
+
+    overflow: hidden;
+    width: 55rem;
+    overflow: hidden;
+        height: auto;
+       padding-top: 2rem;
+}
+.BikesToggle{
+    overflow: hidden;
+    width: 52rem;
+    overflow: hidden;
+        height: auto;
+       padding-top: 2rem; 
+}
+.vertical-line {
+    border-left: 1px solid #1e1c1c; /* Line color and style */
+    height: 100px; /* Height of the line */
+    margin: 0 20px; /* Margin around the line */
+}
+.iconLabel{
+    color: lightgrey;
+opacity: 0.8;
+
+
+}
+.iconLabel h5{
+    font-size: 1rem;
+}
+
+.iconLabelCol:hover{
+   color: rgb(34, 108, 193);
+background-color: white;
+}
+
+
+.iconLabelColsm h5{
+    font-size: 1rem;
+}
+.iconLabelColsm p{
+    font-size: 0.9rem;
+}
+
+.iconLabelColsm p:hover{
+    color: rgb(34, 108, 193);
+    background-color: white;
+}
+#AutoStore{
+  
+}
+#AutoStore h5{
+    font-size: 0.9rem;
+    color: rgb(93, 92, 92);
+}
+#AutoStore p{
+    color: gray;
+    font-size: 0.7rem;
+}
+.AutoStoreCol:hover{
+   
+background-color: transparent;
+}
+#AutoStore h5:hover{
+    color: rgb(34, 108, 193);
+}
+.CenterTagLine{
+
+    color: White;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.MoreToggle{
+    width: auto;
+    overflow-wrap: break-word;
+    height: 500px;
+    overflow: auto;
+}
+.MoreToggle h5{
+    color: rgb(93, 92, 92);
+    font-size: 1rem;
+}
+.MoreToggle p{
+    
+color: gray;
+    font-size: 0.7rem;
+}
+
+.MoreToggle a:hover{
+ 
+    background-color: transparent;
+
+}
+.MoreToggle h5:hover{
+    color: rgb(34, 108, 193);
+}
+.SearchBar{
+    text-align: center;
+    width: 50rem;
+    border-radius: 4px;
+    background-color: white;
+    height: 45px;
+}
+.inputtext{
+border-color: transparent;
+}
+.inputtext:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0); 
+    border-color: transparent;
+}
+#searchDropdown{
+    border-color: transparent;
+}
+#searchDropdown:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0); 
+    border-color: transparent;
+}
+#Dropdown-Cities{
+    border-color: transparent;
+    font-size: medium;
+    color: gray;
+}
+#Dropdown-Cities:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0); 
+    border-color: transparent;
+}
+#CitiesDrop{
+    font-size: 1rem;
+}
+#CitiesDrop:hover{
+    background-color: transparent;
+}
+.dropdown-scrollable {
+    max-height: 200px; /* Adjust the maximum height as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  #Dropdown-Price{
+    border-color: transparent;
+    font-size: medium;
+    color: gray;
+  }
+  #Dropdown-Price:focus{
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0); 
+    border-color: transparent;
+  }
+  #MinMax{
+    display: block;
+    
+  }
+  #MinMax:hover{
+    background-color: transparent;
+  }
+  #Min{
+    width: 50px;
+    text-align: left;
+    float: left;
+  }
+  #Max{
+    width: 50px;
+   text-align: right;
+float: right;
+  }
+  #BR:hover{
+background-color: transparent;
+  }
+
+  #filter{
+    color: white;
+    border: 1px solid white;
+    width: 180px;
+    font-size: small;
+    text-align: center;
+
+  }
+  #filter:hover{
+    border:1px solid gray;
+    color: rgb(133, 133, 215);
+  }
+  #Sec2 h1{
+
+    font-size: 1.5rem;
+  }
+  .box {
+ 
+    border: 1px solid lightslategray;
+ }
+ .box > h3 {
+    position: absolute;
+    background: white;
+    height: 20px;
+    font-size: 1.5rem;
+    margin-top: -12px;
+    margin-left: 2.5rem;
+    padding: 0 10px;
+ }
+ .box-p p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color:#0966a3 ;
+ }
+ .box-p li{
+    font-size: 0.9rem;
+ }
+ .inline-list{
+    display:inline-block;
+
+ }
+.graycon{
+    background-color: lightgray;
+    opacity: 0.7;
+    
+}
+
+.navBarList{
+    
+    list-style: none;
+    display:flex;
+ font-size: 1.3rem;
+
+}
+.navBarList li{
+    flex: 1;
+
+text-align: center;
+}
+
+.slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {
+    display: none;
+  }
+
+
+
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+  }
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .mySlides{
+ 
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap */
+    overflow: hidden; /* Hide any potential overflow */
+  }
+
+  .flex-item {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    flex: 0 0 calc(33.33% - 20px); /* Set flex-basis to one-third minus margin */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    margin: 8px;
+    text-align: center;
+  }
+.navBarList li{
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.navBarList li:hover{
+border-bottom: 4px solid rgb(0, 145, 255);
+} 
+.col-item{
+    margin: 10px;
+    padding: 10px;
+    width: 400px;
+    height: 180px;
+ text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.615);
+}
+.col-item:hover{
+  color: cornflowerblue;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.163);
+}
+.col-item img{
+    width: 10rem;
+}
+.col-item h5{
+    font-size: 1rem;
+}
+
+
+footer {
+
+    background-image: linear-gradient(black,rgba(4, 56, 112, 0.944));
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+   
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(32, 122, 178);
+}
